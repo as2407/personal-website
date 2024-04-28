@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-lg justify-content-end  fixed-top light-mode" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" (click)="goToHome()" style="cursor:pointer;">
+        <img src="assets/software.png" alt="logo" width="64" height="64" class="d-inline-block align-text-center me-3">
+        Portfolio
+      </a>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item me-2">
+            <a class="nav-link {{ navActive === '' ? 'active' : ''}}"  (click)="goToHome()">🏠  Home</a>
+          </li>
+          <li class="nav-item me-2">
+            <a class="nav-link {{ navActive === 'projects' ? 'active' : ''}}" (click)="goToProjects()">⚙️  Projects</a>
+          </li>
+          <li class="nav-item me-2">
+            <a class="nav-link {{ navActive === 'experience' ? 'active' : ''}}" (click)="goToAbout()">💼  Experience</a>
+          </li>
+
+          <li class="nav-item me-2">
+            <a class="nav-link {{ navActive === 'education' ? 'active' : ''}}" (click)="goToCertifications()">👩‍🎓️  Education</a>
+          </li>
+          <li class="nav-item me-2">
+            <button class="btn btn-purple-fill" (click)="night ? activateLightMode() : activateNightMode()">{{nightButtonText}}</button>
+          </li>
+        </ul>
+      </div>
+      <button class="navbar-toggler mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+

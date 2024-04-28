@@ -1,0 +1,49 @@
+.btn-purple-fill {
+    background-color: #7171FE;
+    color: white;
+    padding: .5rem;
+}
+
+.btn-purple-fill:hover {
+  background-color: #5050ff;
+  color: white;
+}
+
+.navbar {
+  background-color: #fdf6ed;
+}
+.navbar-brand {
+  margin-right: 5%;
+  font-family: "Roboto Mono", sans-serif;
+  color: #7171FE;
+}
+
+.nav-link {
+  font-family: "Roboto Mono", sans-serif;
+  color: #7171FE;
+}
+
+
+.nav-link:hover {
+  /*border-radius: 0.25rem;*/
+  /*background-color: #7171FE;*/
+  /*color: rgb(255, 255, 255);*/
+  /*padding: .5rem;*/
+  cursor: pointer;
+}
+
+
+.navbar-nav .nav-link.active {
+  border-radius: 0.25rem;
+  border: solid;
+  border-color: #7171FE;
+  color: #7171FE;
+}
+
+.night-mode {
+  background-color: rgb(46, 46, 59);
+}
+
+.light-mode {
+  background-color: #fdf6ed;
+}

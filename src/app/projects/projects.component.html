@@ -1,0 +1,18 @@
+<div class="container-fluid mt-2">
+    <div style="margin-top: 105px;">
+        <h1 class="skill-heading" style="justify-content: center">My Recent Works</h1>
+        <p class="details" style="justify-content: center;">Here are my few project I've recently worked</p>
+    </div>
+    <div class="row tech-icons" *ngFor="let project of projectDetails?.projects">
+        <div class="col-md-5" style="justify-content: center; align-items: center; display: flex; ">
+            <img src="assets/projects/{{project?.imagename}}" class="center-fit" alt={{project.alt}}>
+        </div>
+        <div class="col-md-7" style="margin-top: 30px;">
+          <h1 class="skill-heading">{{project?.name}}</h1>
+          <p class="details pe-5" style="font-size: 1rem; ">{{project?.details}}</p>
+          <p class="details pe-5" style="color: #5050ff; font-size: 1.2rem">Tech Stack: {{project?.techstack}}</p>
+            <button class="btn btn-purple-fill" (click)="goTogitHub(project?.sourcecode)">Source Code</button>
+            <button class="btn btn-purple-fill" (click)="downloadApk(project?.demourl)" style="margin-left: 25px; padding-left: 25px; padding-right: 25px;" *ngIf="project?.isdemo">Publication</button>
+        </div>
+    </div>
+</div>

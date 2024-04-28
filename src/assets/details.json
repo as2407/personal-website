@@ -1,0 +1,111 @@
+{
+    "firstname":"Ankita",
+    "lastname":"Samanta",
+    "homesection":{
+        "intro":"A Computer Science Graduate Student and a Passionate Software Engineer.",
+        "linkdin":"https://www.linkedin.com/in/ankita-samanta/",
+        "github":"https://github.com/as2407",
+        "resume":"https://drive.google.com/file/d/1yQgdAVmAzIqngpKoNtjuTdwSqoBaoJn-/view?usp=sharing"
+    },
+    "aboutsection":{
+        "_skillscomment":"Put svg files with the same name as in skills list. You can download logos from https://www.iconfinder.com/, https://www.vectorlogo.zone/",
+        "skills":["Java","Python","JavaScript","TypeScript","C","Spring-Boot", "ReactJS","Angular","Android","MySQL","PostgresSQL","AWS","Firebase"],
+        "location":"Kolkata, India",
+        "employed":true,
+        "organization":"University of Southern California",
+        "designation":"Software Developer",
+        "careerdetails":"I have completed Bachelor of Technology (B.Tech) in Electronics and Communication Enginnering from Academy of Technology, Hooghly."
+    },
+    "certificationsection":{
+        "certificates":[
+            {
+                "name":"AWS Certified Cloud Practioner",
+                "imagename":"AWS Certified Cloud Practitioner certificate_page-0001.jpg",
+                "alt":"aws cloud practitioner certificate",
+                "details":"I have completed AWS Cloud Practioner certification on April, 2023. By completing this certificate I achieved following technical milestone,",
+                "learningpoints":[
+                    "I've acquired a comprehensive understanding of basic AWS Cloud architectural principles, enabling me to design and deploy scalable and reliable cloud solutions.",
+                    "I've mastered key AWS services, such as EC2, S3, RDS, and IAM, learning their functionalities, use cases, and best practices for implementation.",
+                    "I've learned essential AWS security practices and compliance measures."
+                ]
+
+            }
+        ]
+    },
+    "projectsection":{
+        "projects":[
+          {
+              "name":"Event Search Application",
+              "details":"This project is a comprehensive full-stack application deployed on Google App Engine, featuring a RESTful backend crafted with Node.js and Express.js. This application enables users to search for event, venue, and artist details using the Ticketmaster API and Spotify API. The front end is designed as a single-page, responsive application using Angular. Leveraging Angular's HTTPClientModule and RxJS, the application facilitates over 20 API calls, enabling dynamic features such as live location updates, auto-complete search functionality, and managing a favorites list.",
+              "imagename":"event-search.jpg",
+              "alt":"event-search-app demo",
+              "sourcecode":"https://github.com/as2407/event-search-application",
+              "isdemo":false,
+              "demourl":"",
+              "techstack": "Angular, Node.js, Express.js, Ticketmaster API, Google Cloud, HTML, CSS, Javascript, Angular Material, Bootstrap, Spotify API"
+          },
+          {
+            "name":"Video Scene Detection Application",
+            "details":"In this project, my team and I built a microservice-based system using Flask, integrating several AWS components, including S3, SQS, SNS, Amazon MQ, and Rekognition. The system's primary function was to detect shots and sub-shots from input videos. Additionally, I implemented a real-time progress bar using Socket.io to display the upload status of video files visually.",
+            "imagename":"video.jpg",
+            "alt":"scene-detection demo",
+            "sourcecode":"https://github.com/as2407/Scene-Detection-App",
+            "isdemo":false,
+            "demourl":"",
+            "techstack": "AWS, Flask, Rekognition, RabbitMQ, Socket.io"
+          },
+          {
+              "name":"Gene-Disease Relation Extractor",
+              "details":"In collaboration with my team, we managed biomedical data collection and supervised the implementation of meticulous data pre-processing and feature engineering pipelines. Furthermore, we collectively developed a pipeline that integrated Bidirectional Long Short-Term Memory (BiLSTM) with Conditional Random Fields (CRF), achieving an impressive 71% F1-Score for gene-disease relation extraction.",
+              "imagename":"gene-disease.svg",
+              "alt":"gene-disease demo",
+              "sourcecode":"https://github.com/as2407/biomedical-relation-extraction",
+              "isdemo":false,
+              "demourl":"",
+              "techstack": "PyTorch, Scikit-learn, Numpy, Pandas, LLMs, OpenCV, NLP"
+          },
+
+          {
+            "name":"Identification of Frost in Martian HiRISE Images",
+            "details":"This project involved the development of a Convolutional Neural Network (CNN) model in Keras aimed at classifying Martian frost. Initially, I achieved an accuracy of 89% using the VGG16 architecture. Subsequently, I further improved the model's performance by implementing transfer learning techniques with EfficientNetB0 and ResNet50 architectures.\n",
+            "imagename":"frost.svg",
+            "alt":"frost-identification demo",
+            "sourcecode":"https://github.com/as2407/identification-of-frost-in-Martian-HiRISE-Images",
+            "isdemo":false,
+            "demourl":"",
+            "techstack": "Python, Keras, Scikit-learn"
+          },
+
+          {
+            "name":"Web Crawler",
+            "details":"This project involved the development of a Python web crawler using Beautiful Soup to compare search results from DuckDuckGo, Bing, and Google across 2000 unique queries. Following data collection, I used Spearman's Rank Coefficient to analyze the data. This analysis provided valuable insights into the consistency and relevance of search results across different search engines.",
+            "imagename":"crawler.svg",
+            "alt":"crawler demo",
+            "sourcecode":"https://github.com/as2407/web-crawler",
+            "isdemo":false,
+            "demourl":"",
+            "techstack": "Python, BeautifulSoup"
+          },
+          {
+            "name":"Aerial Image Segmentation (Paper - Review of recent techniques used for Aerial Image Segmentation)",
+            "details":"In this project, I developed and implemented several deep-learning models, including Deeplabv3, Fastscnn, and Unet. Additionally, I contributed to computer vision by publishing research papers on U-Net models for accurate building classification, essential for remote land encroachment detection, with minimal data requirements. These papers were published and made available on IEEE Xplore.",
+            "imagename":"aerial.jpg",
+            "alt":"aerial-image-seg demo",
+            "sourcecode":"https://github.com/as2407/aerialimageSegmentation/tree/develop/aerial-segmentation",
+            "isdemo":true,
+            "demourl":"https://ieeexplore.ieee.org/abstract/document/9781826",
+            "techstack": "Python, Pytorch, Numpy, OpenCV"
+          },
+          {
+            "name":"Faster Segmentation of Cardiac MRI using U-Net",
+            "details":"This project was my final year undergrad project that involved the redesign of the U-Net architecture by incorporating batch normalization and feature combination techniques. This modification led to a notable performance improvement of 10%-12% on the Automated Cardiac Diagnosis Challenge Dataset, explicitly enhancing the accuracy of hypertrophic cardiomyopathy diagnosis.",
+            "imagename":"cardiac.jpg",
+            "alt":"crawler demo",
+            "sourcecode":"https://github.com/as2407/cardiac-MRI-using-UNET",
+            "isdemo":false,
+            "demourl":"",
+            "techstack": "Python, Pytorch, Numpy, OpenCV"
+          }
+        ]
+    }
+}

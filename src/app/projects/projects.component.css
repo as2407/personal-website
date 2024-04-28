@@ -1,0 +1,46 @@
+.skill-heading{
+    font-family: "Source Code Pro", sans-serif;
+    color: #7171fe;
+    justify-content: left;
+    text-align: left;
+    display: flex;
+  }
+.details {
+  font-family: "Source Code Pro", sans-serif;
+  color:#6c6c6c;
+  font-size: 0.95rem;
+  justify-content: left;
+  display: flex;
+}
+.tech-icons {
+  font-size: 4.5em ;
+  margin: 25px ;
+  margin-top: 1em;
+  padding: 10px ;
+  opacity: 0.93 ;
+  vertical-align: middle ;
+  border-radius: 5px ;
+  /*box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) ;*/
+  overflow: hidden ;
+  transition: all 0.4s ease 0s;
+}
+.tech-icons:hover {
+  transform: scale(1.015) ;
+  overflow: hidden ;
+}
+.btn-purple-fill {
+  background-color: #7171fe;
+  color: white;
+  padding: .5rem;
+}
+
+.btn-purple-fill:hover {
+  background-color: #5050ff;
+  color: white;
+}
+
+.center-fit {
+  max-width: 70%;
+  max-height: 50vh;
+  margin-top: 25px;
+}

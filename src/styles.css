@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+.night-mode {
+    background-color: rgb(46, 46, 59);
+  }
+  
+  .light-mode {
+    background-color: #fdf6ed;
+  }
+  

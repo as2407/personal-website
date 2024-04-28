@@ -1,0 +1,27 @@
+<div class="container-fluid mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="intro-container ms-5 pe-5">
+              <p style="color: #7171FE"><span class="wave">👋</span> I am {{details?.firstname}},</p>
+              <span class="type" style="--n:100">{{homeDetails?.intro}}</span>
+            </div>
+            <div class="d-flex mt-3 ms-5 social">
+                <a href= {{homeDetails?.github}} target="_blank" class="d-inline-flex me-4 justify-content-center align-items-center">
+                  <img src="assets/github.png" height="20" width="20" class="me-2">
+                  <p class="pt-3 me-2">Github</p>
+                </a>
+                <a href={{homeDetails?.linkdin}} target="_blank" class="d-inline-flex me-4 justify-content-center align-items-center">
+                  <img src="assets/linkedin.png" height="20" width="20" class="me-2">
+                  <p class="pt-3 me-2">LinkedIn</p>
+                </a>
+                <a href={{homeDetails?.resume}} target="_blank" class="d-inline-flex justify-content-center align-items-center">
+                  <img src="assets/resume.png" height="20" width="20" class="me-2">
+                  <p class="pt-3">Resume</p>
+                </a>
+              </div>
+        </div>
+        <div class="col-md-6 mt-5">
+            <ng-lottie [options]="lottieOptions"></ng-lottie>
+        </div>
+    </div>
+</div>
