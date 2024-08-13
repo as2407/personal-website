@@ -36,13 +36,23 @@
         "projects":[
           {
               "name":"Event Search Application",
-              "details":"This project is a comprehensive full-stack application deployed on Google App Engine, featuring a RESTful backend crafted with Node.js and Express.js. This application enables users to search for event, venue, and artist details using the Ticketmaster API and Spotify API. The front end is designed as a single-page, responsive application using Angular. Leveraging Angular's HTTPClientModule and RxJS, the application facilitates over 20 API calls, enabling dynamic features such as live location updates, auto-complete search functionality, and managing a favorites list.",
+              "details":"This project is a comprehensive full-stack application deployed on Google App Engine, featuring a RESTful backend crafted with Node.js and Express.js. This application enables users to search for event, venue, and artist details using the Ticketmaster API and Spotify API. The front end is designed as a single-page, responsive application using Angular. Leveraging Angular's HTTPClientModule and RxJS, the application facilitates over 2000+ API calls, enabling dynamic features such as live location updates, auto-complete search functionality, and managing a favorites list.",
               "imagename":"event-search.jpg",
               "alt":"event-search-app demo",
               "sourcecode":"https://github.com/as2407/event-search-application",
               "isdemo":false,
               "demourl":"",
               "techstack": "Angular, Node.js, Express.js, Ticketmaster API, Google Cloud, HTML, CSS, Javascript, Angular Material, Bootstrap, Spotify API"
+          },
+          {
+              "name":"Resume Parser",
+              "details":"This project is an AI-powered application designed for precise resume parsing and analysis, deployed using a robust backend. It integrates LangChain for advanced NLP processing, combining BERT with a keyword scoring system and prompt engineering to ensure contextually relevant LLM responses.",
+              "imagename":"event-search.jpg",
+              "alt":"resume-parser demo",
+              "sourcecode":"https://github.com/trinonandi/ResumeParser",
+              "isdemo":true,
+              "demourl":"https://resume-parser-angular.vercel.app/",
+              "techstack": "Angular, Python, LangChain, FAISS, RAG, HTML, CSS, Javascript, Angular Material, Bootstrap, Vercel"
           },
           {
             "name":"Video Scene Detection Application",
