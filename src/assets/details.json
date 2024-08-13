@@ -49,7 +49,7 @@
           {
               "name":"Resume Parser",
               "details":"This project is an AI-powered application designed for precise resume parsing and analysis, deployed using a robust backend. It integrates LangChain for advanced NLP processing, combining BERT with a keyword scoring system and prompt engineering to ensure contextually relevant LLM responses.",
-              "imagename":"event-search.jpg",
+              "imagename":"resume-parser.jpg",
               "alt":"resume-parser demo",
               "sourcecode":"https://github.com/trinonandi/ResumeParser",
               "isdemo":true,
