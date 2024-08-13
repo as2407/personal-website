@@ -42,6 +42,8 @@
               "sourcecode":"https://github.com/as2407/event-search-application",
               "isdemo":false,
               "demourl":"",
+              "ispublication":false,
+              "publicationurl":"",
               "techstack": "Angular, Node.js, Express.js, Ticketmaster API, Google Cloud, HTML, CSS, Javascript, Angular Material, Bootstrap, Spotify API"
           },
           {
@@ -52,6 +54,8 @@
               "sourcecode":"https://github.com/trinonandi/ResumeParser",
               "isdemo":true,
               "demourl":"https://resume-parser-angular.vercel.app/",
+              "ispublication":false,
+              "publicationurl":"",
               "techstack": "Angular, Python, LangChain, FAISS, RAG, HTML, CSS, Javascript, Angular Material, Bootstrap, Vercel"
           },
           {
@@ -62,6 +66,8 @@
             "sourcecode":"https://github.com/as2407/Scene-Detection-App",
             "isdemo":false,
             "demourl":"",
+            "ispublication":false,
+            "publicationurl":"",
             "techstack": "AWS, Flask, Rekognition, RabbitMQ, Socket.io"
           },
           {
@@ -72,6 +78,8 @@
               "sourcecode":"https://github.com/as2407/biomedical-relation-extraction",
               "isdemo":false,
               "demourl":"",
+              "ispublication":false,
+              "publicationurl":"",
               "techstack": "PyTorch, Scikit-learn, Numpy, Pandas, LLMs, OpenCV, NLP"
           },
 
@@ -83,6 +91,8 @@
             "sourcecode":"https://github.com/as2407/identification-of-frost-in-Martian-HiRISE-Images",
             "isdemo":false,
             "demourl":"",
+            "ispublication":false,
+            "publicationurl":"",
             "techstack": "Python, Keras, Scikit-learn"
           },
 
@@ -94,6 +104,8 @@
             "sourcecode":"https://github.com/as2407/web-crawler",
             "isdemo":false,
             "demourl":"",
+            "ispublication":false,
+            "publicationurl":"",
             "techstack": "Python, BeautifulSoup"
           },
           {
@@ -102,8 +114,10 @@
             "imagename":"aerial.jpg",
             "alt":"aerial-image-seg demo",
             "sourcecode":"https://github.com/as2407/aerialimageSegmentation/tree/develop/aerial-segmentation",
-            "isdemo":true,
-            "demourl":"https://ieeexplore.ieee.org/abstract/document/9781826",
+            "isdemo":false,
+            "demourl":"",
+            "ispublication":true,
+            "publicationurl":"https://ieeexplore.ieee.org/abstract/document/9781826",
             "techstack": "Python, Pytorch, Numpy, OpenCV"
           },
           {
@@ -114,6 +128,8 @@
             "sourcecode":"https://github.com/as2407/cardiac-MRI-using-UNET",
             "isdemo":false,
             "demourl":"",
+            "ispublication":false,
+            "publicationurl":"",
             "techstack": "Python, Pytorch, Numpy, OpenCV"
           }
         ]
